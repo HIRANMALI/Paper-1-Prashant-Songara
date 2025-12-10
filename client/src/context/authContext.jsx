@@ -2,12 +2,15 @@ import {  useState } from "react";
 import { createContext } from "react";
 import axios from 'axios'
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 export const AuthContext = createContext(null)
 
 export const AuthProvider = ({children}) => {
-    const navigate = useNavigate()
     const [user, setUser] = useState(null)
+    const [allRecipies, setAllRecipies] = useState([])
+    const navigate = useNavigate()
+    const [loading, setLoading] = useState(true)
 
     const login = async (formData) => {
         try {
@@ -20,7 +23,6 @@ export const AuthProvider = ({children}) => {
                 }            
             }
             console.log(loginData);
-            
 
             // const encryptedData = encryptData(finalData)
 
@@ -56,7 +58,7 @@ export const AuthProvider = ({children}) => {
     const fetchRecipe = async () => {
         try {
             const res = await axios.get("http://localhost:5000/api/recipe/getAllRecipe");
-            console.log(res);
+            // console.log(res);
             return res.data.data;
         } catch (err) {
             console.error(err);
@@ -64,8 +66,24 @@ export const AuthProvider = ({children}) => {
         }
     }
 
+    useEffect(() => {
+        const loadUser = async () => {
+            const loggedUser = await fetchUser()
+            setUser(loggedUser)            
+            setLoading(false)
+        }
+
+        const loadRecipe = async () => {
+            const recipes = await fetchRecipe()
+            setAllRecipies(recipes)
+        }
+
+        loadUser()
+        loadRecipe()
+    }, [])
+
     return (
-        <AuthContext.Provider value={{user, setUser, login, fetchUser, fetchRecipe}}>
+        <AuthContext.Provider value={{user, setUser, login, fetchUser, fetchRecipe, loading, allRecipies, navigate}}>
             {children}
         </AuthContext.Provider>
     )

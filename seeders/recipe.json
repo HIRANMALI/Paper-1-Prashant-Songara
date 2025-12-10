@@ -1,0 +1,202 @@
+[
+  {
+    "user_id": "1",
+    "recipe_name": "Masala Dosa",
+    "recipe_category": "breakfast",
+    "cooking_time": 30,
+    "photo": "masala_dosa.jpg",
+    "ingredients": ["Rice", "Urad dal", "Potato", "Mustard seeds", "Oil"],
+    "cooking_instructions": "Prepare batter, make dosa, add potato masala filling.",
+    "difficulty_level": "moderate"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Poha",
+    "recipe_category": "breakfast",
+    "cooking_time": 20,
+    "photo": "poha.jpg",
+    "ingredients": ["Flattened rice", "Onion", "Peanuts", "Turmeric", "Oil"],
+    "cooking_instructions": "Wash poha, sauté spices, add poha and mix.",
+    "difficulty_level": "easy"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Aloo Paratha",
+    "recipe_category": "breakfast",
+    "cooking_time": 25,
+    "photo": "aloo_paratha.jpg",
+    "ingredients": ["Wheat flour", "Potato", "Spices", "Ghee"],
+    "cooking_instructions": "Stuff dough with spiced potato mix and fry.",
+    "difficulty_level": "easy"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Paneer Butter Masala",
+    "recipe_category": "lunch",
+    "cooking_time": 35,
+    "photo": "paneer_butter_masala.jpg",
+    "ingredients": ["Paneer", "Tomato puree", "Cream", "Butter", "Spices"],
+    "cooking_instructions": "Cook paneer in creamy tomato gravy.",
+    "difficulty_level": "moderate"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Chole Bhature",
+    "recipe_category": "lunch",
+    "cooking_time": 45,
+    "photo": "chole_bhature.jpg",
+    "ingredients": ["Chickpeas", "Onion", "Tomato", "Spices", "Flour"],
+    "cooking_instructions": "Prepare chole gravy and deep fry bhature.",
+    "difficulty_level": "hard"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Dal Tadka",
+    "recipe_category": "lunch",
+    "cooking_time": 20,
+    "photo": "dal_tadka.jpg",
+    "ingredients": ["Toor dal", "Ghee", "Garlic", "Chili", "Cumin"],
+    "cooking_instructions": "Cook dal and add ghee tadka on top.",
+    "difficulty_level": "easy"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Rajma Chawal",
+    "recipe_category": "lunch",
+    "cooking_time": 40,
+    "photo": "rajma_chawal.jpg",
+    "ingredients": ["Kidney beans", "Onion", "Tomato", "Rice", "Spices"],
+    "cooking_instructions": "Cook rajma curry and serve with steamed rice.",
+    "difficulty_level": "moderate"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Pav Bhaji",
+    "recipe_category": "dinner",
+    "cooking_time": 35,
+    "photo": "pav_bhaji.jpg",
+    "ingredients": ["Potato", "Tomato", "Peas", "Pav", "Butter"],
+    "cooking_instructions": "Cook mixed vegetables into bhaji and toast pav.",
+    "difficulty_level": "easy"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Hyderabadi Biryani",
+    "recipe_category": "dinner",
+    "cooking_time": 10,
+    "photo": "hyderabadi_biryani.jpg",
+    "ingredients": ["Rice", "Chicken", "Yogurt", "Spices", "Onion"],
+    "cooking_instructions": "Layer marinated chicken with rice and cook on dum.",
+    "difficulty_level": "hard"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Idli Sambhar",
+    "recipe_category": "breakfast",
+    "cooking_time": 25,
+    "photo": "idli_sambar.jpg",
+    "ingredients": ["Rice batter", "Urad dal", "Vegetables", "Spices"],
+    "cooking_instructions": "Steam idlis and prepare sambar.",
+    "difficulty_level": "easy"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Vegetable Pulao",
+    "recipe_category": "lunch",
+    "cooking_time": 30,
+    "photo": "veg_pulao.jpg",
+    "ingredients": ["Rice", "Peas", "Carrot", "Beans", "Spices"],
+    "cooking_instructions": "Cook rice with mixed vegetables and spices.",
+    "difficulty_level": "easy"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Bhindi Masala",
+    "recipe_category": "lunch",
+    "cooking_time": 20,
+    "photo": "bhindi_masala.jpg",
+    "ingredients": ["Ladyfinger", "Onion", "Tomato", "Oil", "Spices"],
+    "cooking_instructions": "Sauté bhindi with onion-tomato mixture.",
+    "difficulty_level": "easy"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Chicken Curry",
+    "recipe_category": "dinner",
+    "cooking_time": 45,
+    "photo": "chicken_curry.jpg",
+    "ingredients": ["Chicken", "Onion", "Tomato", "Ginger garlic", "Spices"],
+    "cooking_instructions": "Cook chicken in spiced onion-tomato gravy.",
+    "difficulty_level": "moderate"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Roti Sabzi",
+    "recipe_category": "dinner",
+    "cooking_time": 20,
+    "photo": "roti_sabzi.jpg",
+    "ingredients": ["Wheat flour", "Any vegetable", "Oil", "Spices"],
+    "cooking_instructions": "Make rotis and prepare vegetable sabzi.",
+    "difficulty_level": "easy"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Sambar Rice",
+    "recipe_category": "lunch",
+    "cooking_time": 30,
+    "photo": "sambar_rice.jpg",
+    "ingredients": ["Rice", "Toor dal", "Vegetables", "Sambar powder"],
+    "cooking_instructions": "Mix cooked rice with sambar.",
+    "difficulty_level": "easy"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Kadhi Chawal",
+    "recipe_category": "lunch",
+    "cooking_time": 35,
+    "photo": "kadhi_chawal.jpg",
+    "ingredients": ["Yogurt", "Besan", "Spices", "Rice"],
+    "cooking_instructions": "Cook kadhi and serve with steamed rice.",
+    "difficulty_level": "easy"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Matar Paneer",
+    "recipe_category": "dinner",
+    "cooking_time": 30,
+    "photo": "matar_paneer.jpg",
+    "ingredients": ["Paneer", "Peas", "Tomato", "Spices"],
+    "cooking_instructions": "Cook paneer and peas in spiced tomato gravy.",
+    "difficulty_level": "moderate"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Upma",
+    "recipe_category": "breakfast",
+    "cooking_time": 15,
+    "photo": "upma.jpg",
+    "ingredients": ["Semolina", "Onion", "Mustard seeds", "Curry leaves"],
+    "cooking_instructions": "Cook semolina with sautéed veggies and spices.",
+    "difficulty_level": "easy"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Fish Curry",
+    "recipe_category": "dinner",
+    "cooking_time": 40,
+    "photo": "fish_curry.jpg",
+    "ingredients": ["Fish", "Coconut milk", "Spices", "Tamarind"],
+    "cooking_instructions": "Cook fish in coconut-based curry.",
+    "difficulty_level": "moderate"
+  },
+  {
+    "user_id": "1",
+    "recipe_name": "Jeera Rice",
+    "recipe_category": "lunch",
+    "cooking_time": 15,
+    "photo": "jeera_rice.jpg",
+    "ingredients": ["Rice", "Cumin", "Ghee", "Salt"],
+    "cooking_instructions": "Cook rice with cumin-flavored ghee.",
+    "difficulty_level": "easy"
+  }
+]

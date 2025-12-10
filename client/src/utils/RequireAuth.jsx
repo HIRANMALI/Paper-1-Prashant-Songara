@@ -1,11 +1,16 @@
 import { useContext } from "react"
-import { AuthContext } from "../context/auth.jsx"
 import { Navigate } from "react-router-dom"
+import { AuthContext } from "../context/authContext.jsx"
 
 export const RequireAuth = ({children}) => {
-    const {user} = useContext(AuthContext)
+    const {user, loading} = useContext(AuthContext)
     
-    if (!user)  return <Navigate to="/" replace />
+    if (loading) return <p>Loading....</p>
+    
+    if (!user) {
+            window.alert("Please log-in first to access this route.")
+            return <Navigate to="/" replace />
+        }
 
     return children
 }   

@@ -1,7 +1,8 @@
 {
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "seed:recipies": "node ./seeders/recipeSeeder.js"
   },
   "type": "module",
   "dependencies": {

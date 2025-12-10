@@ -24,6 +24,7 @@ const User = sequelize.define('User', {
   timestamps: true,
   hooks: {
     async beforeCreate(user) {
+   
       if (user.password) {
         const hash = await bcrypt.hash(user.password, 10);
         user.password = hash;

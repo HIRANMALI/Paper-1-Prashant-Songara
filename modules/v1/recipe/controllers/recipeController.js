@@ -29,6 +29,37 @@ const recipeController = {
             return res.status(404).json({code: 404, message: "recipe_id or user_id not found.", data: []})
         }
     },
+
+    async seedRecipies(req, res) {
+        const recipes = req.body
+        if (recipes) {
+            return recipeModule.seedRecipies(recipes, res)
+        } else {
+            return res.status(404).json({code: 404, message: "recipies not found.", data: []})
+        }
+    },
+
+    async filterRecipies(req, res) {
+        const filterOptions = req.query
+        console.log(filterOptions);
+        if (filterOptions) {
+            return recipeModule.filterRecipies(filterOptions, res)
+        } else {
+            return res.status(404).json({code: 404, message: "filters not found.", data: []})
+        }
+        
+    },
+
+    async searchRecipe(req, res) {
+        const {input} = req.params
+        // console.log(input);
+        if (input) {
+            return recipeModule.searchRecipe(input, res)
+        } else {
+            return res.status(404).json({code: 404, message: "seach not found.", data: []})
+        }
+        
+    },
 }
 
 export default recipeController
